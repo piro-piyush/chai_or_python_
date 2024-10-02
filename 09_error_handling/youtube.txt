@@ -1,0 +1,7 @@
+[{
+    "name": "Chai aur python", "duration": "50 mins"
+}, {
+    "name": "chai aur backend", "duration": "15 hours"
+}, {
+    "name": "chai aur css ", "duration": "2 hours"
+}]

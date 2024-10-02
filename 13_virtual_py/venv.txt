@@ -1,0 +1,42 @@
+To install virtual environment:
+    pip install virtualenv
+
+Creating virtual environments : 
+    python -m venv /path/to/new/virtual/environment
+    
+We have chose :
+    python -m venv .venv
+
+To Create a virtual environment :
+    virtualenv ven
+
+Create the environment :
+    virtualenv env_name
+
+First Set Execution policy by opening powershell as admin and then enter this and press A :
+    Set-ExecutionPolicy RemoteSigned
+
+Activate the new python environment
+Windows :
+    .\env_name\Scripts\activate
+
+Confirm that the env is successfully selected :
+    python --version
+
+To list availabe all python libraries 
+    pip list 
+
+To send list all list to file 
+    pip list > requirement.txt
+
+Save pip packages list to requirements.txt file using command : 
+    pip freeze > requirements.txt
+
+Install packages from requirements.txt file : 
+    pip install -r requirements.txt
+
+To install Django :
+     python -m pip install Django==5.1
+
+To Deactivate venv 
+    deactivate

@@ -1,0 +1,31 @@
+Download anaconda for managing environments in system 
+Url - https://www.anaconda.com/download
+
+While installing anaconda keep in mind to tick add environment 
+variables option
+After installing anaconda reopen vscode then run these commands
+to check it is installed correctly or not 
+
+Commands :
+    conda info - show conda info 
+    conda env list - show environment list 
+    * means it is activated and the location will be shown
+
+    This command will install an env name py310 whose version is 3.10
+    conda create --name py310 python=3.10 
+
+To activate a env :
+    conda activate py310
+To deactivate a env :
+    conda deactivate
+    Use this command again  to deactibate from base version 
+
+To remove it from shell :
+    conda config --set auto_activate_base false
+
+You can activate from above commands and 
+Warning : Do not use conda and pip both 
+
+To install a library in conda environment :
+    conda install library
+    conda install seaborn
